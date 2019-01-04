@@ -81,17 +81,15 @@
 </div>
 
 
-<!--Redirection pas au point-->
+<!--Manque button cancel, j'ai pas réussi à combiner le décompte + l'URL + prompt-->
 <script>
-        popup ();
+popup ();
         function popup() {
-          setTimeout(function(){ alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
-        }
-        
-        if (popup())
-{location='https://www.youtube.com/watch?v=dQw4w9WgXcQ';}
-		else
-{}
+          
+          setTimeout(function(){ alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); 
+          
+          window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}, 10000);
+            };
         </script>
 
 
